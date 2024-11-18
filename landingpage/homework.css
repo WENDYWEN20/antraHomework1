@@ -1,0 +1,86 @@
+/* General Reset not added */
+
+/* body {
+    display: flex; 
+    /* use flexbox to center the content; */
+    justify-content:center;
+    /* center horizontally  */
+    align-items: center;
+    /* center vertically  */
+
+} */
+/* Block: form-container */
+
+.form-container {
+    display:flex;
+    flex-direction:column;
+    padding: 2em;
+    font-size:20px;
+}
+input {
+    padding: 10px;
+    font-size:inherit;
+    border: 1px solid rgb(210, 209, 209);
+    border-radius: 3px; 
+
+}
+.form-container__form{
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+    padding: 2em;
+    /* border: 1px solid; */
+    border-radius: 8px; 
+
+}
+.form-container__title {
+    justify-content:center;
+    align-items: center;
+    padding:15px;
+    font-size:24px;
+    font-family: sans-serif;
+    display: flex;
+    gap: 10px; /* Space between elements */
+    
+}
+
+.form-container__form--row {
+    display:flex;
+    gap:1em;
+}
+
+p {font: "Arial Narrow" ;
+    font-size: 9px;
+color:grey}
+
+.button {
+    display:flex;
+    flex:1;
+    padding: 10px;
+    text-align: center;
+    /* flex-direction: row;   by default is row, so can be commented out*/
+    justify-content:space-between;
+    gap:1em;
+}
+
+.button--register{
+    background-color: rgb(77, 137, 206);
+    width: 100%;
+    display:flex;
+    color:white;
+    font-size: 20px;
+    padding:10px;
+    border: 0px;
+    border-radius: 5px; 
+}
+.button--sign-in{
+    background-color: rgb(65, 163, 117);
+    width: 100%;
+    color:white;
+    font-size: 20px;
+    padding:10px;
+    border: 0px;
+    border-radius: 5px; 
+}
+/* :hover
+{box-shadow: 0 4px 8px}  */
