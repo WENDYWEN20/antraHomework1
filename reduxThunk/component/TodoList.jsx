@@ -38,9 +38,9 @@ export default function TodoList() {
       </div>
       {loading && <p>Loading...</p>}
       {error && <p style={{ color: 'red' }}>{error}</p>}
-      <ul>
+
         {renderTodos()}
-      </ul>
+
       <div style={{ color: 'red' }}>
         {items.filter((t) => t.completed).length} of {items.length} tasks done
         <br />
